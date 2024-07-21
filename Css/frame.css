@@ -1,0 +1,158 @@
+/*
+ *  LAYOUT frame
+ *
+*/
+
+/*          IMPORTS
+------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*   layout draw   */
+html, body {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    /* font para a pag inteira */
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+    
+}
+
+hr {
+    border: 0px;
+    height: 1px;
+    background-color: rgb(219, 219, 219);
+}
+
+.content {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+/* COLUNA A ESQUERDA */
+.content-left {
+    width: 28%;
+    flex: 1;
+}
+
+.left-hd {
+    text-align: center;
+    padding-top: 8px;
+    font-size: 1vw;
+    text-align: justify;
+}
+
+.avatar {
+    width: 20vw; 
+    height: 25vw;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.name {
+
+    padding-top: 5px;
+    padding-bottom: 0px;
+
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 3.2vw;
+    font-style: normal;
+}
+
+.button-links {
+    padding: 10px 20px; /* Espaçamento interno dos botões */
+    font-size: 1.2vw; /* Tamanho da fonte */
+    background-color: #6e92b3; /* Cor de fundo */
+    color: white; 
+    text-align: justify;
+ }
+
+ .button-links button {
+    color: white;
+    width: 95%;
+    height: 25px;
+    margin: 2px auto;
+    border: 1px solid #2e3846;
+    background-color: #464851;
+    text-align: justify;
+
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+ }
+
+/* COLUNA A DIREITA */
+.content-right {
+    width: 70%;
+    height: auto;
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.emot {
+    font-size: 22px;
+}
+
+.section p {
+    padding-top: 5px;
+    margin: 0;
+
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    text-align: justify;
+    font-size: 1.4vw;
+}
+
+.sc-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0;
+    padding-top: 10px;
+
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 1.6vw;
+    font-style: italic;
+
+    border-bottom: 1px solid rgb(200, 200, 219);;
+}
+
+/* pagina de leitura do artigo */
+.article-content {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    text-align: justify;
+    font-size: 1.4vw;
+}
+
+.return-link {
+
+    padding: 10px 20px;
+    font-size: 1vw;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: white;
+    width: 50%;
+    height: 20px;
+    margin: 0 auto;
+    border: 1px solid #2e3846;
+    background-color: #464851;
+    text-align: center;
+}
