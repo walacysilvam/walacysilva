@@ -132,6 +132,14 @@ hr {
     border-bottom: 1px solid rgb(200, 200, 219);;
 }
 
+.sc-subtitle {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 1.4vw;
+    font-style: italic;
+}
+
 /* pagina de leitura do artigo */
 .article-content {
     font-family: "Quicksand", sans-serif;
